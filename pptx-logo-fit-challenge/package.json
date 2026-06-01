@@ -10,6 +10,7 @@
     "replace:demo": "node scripts/replace-logo.js --logo assets/logos/h_rectangle.png"
   },
   "dependencies": {
+    "image-size": "^1.1.1",
     "jszip": "^3.10.1"
   }
 }
