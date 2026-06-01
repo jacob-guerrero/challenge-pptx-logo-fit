@@ -1,6 +1,6 @@
 # PPTX logo fit — technical challenge
 
-Standalone exercise (no dependency on BCS Platform). You can zip this folder and run it anywhere with Node.js 18+.
+Standalone exercise. You can zip this folder and run it anywhere with Node.js 18+.
 
 ## Problem statement
 
