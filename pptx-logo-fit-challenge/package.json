@@ -1,0 +1,15 @@
+{
+  "name": "pptx-logo-fit-challenge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Standalone technical challenge: PPTX logo replacement without deformation",
+  "type": "commonjs",
+  "scripts": {
+    "setup": "node scripts/generate-reference-logos.js && node scripts/create-minimal-template.js",
+    "replace": "node scripts/replace-logo.js",
+    "replace:demo": "node scripts/replace-logo.js --logo assets/logos/h_rectangle.png"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1"
+  }
+}
